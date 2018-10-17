@@ -1,0 +1,5 @@
+{{# for(item of this.items) }}
+  <div>
+    <h2>{{ item }}</h2>
+  </div>
+{{/ for }}

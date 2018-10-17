@@ -1,0 +1,9 @@
+{
+  "generator-donejs": {
+    "promptValues": {
+      "authorName": "Matt Chaffe",
+      "authorEmail": "matt@mattchaffe.uk",
+      "authorUrl": "https://donejs.com"
+    }
+  }
+}

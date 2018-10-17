@@ -1,22 +1,22 @@
-# donejs-app
+# CanJS Demo
 
-Welcome to the donejs-app DoneJS application!
+Welcome to the my simple CanJS app with DoneJS!
 
 ## Getting started
 
-To install all dependencies, (e.g. after cloning it from a Git repository) run
+Install all dependencies with `npm i`
 
-```
-npm install donejs -g
-npm install
-```
+## Running the component demo pages
+
+Run `npx http-server -c-1` to start a simple http server without cachine enabled.
+Load up `http://localhost:8080` in your browser and navigate the file tree to the components folder, click on the component and open the components `.html` file.
 
 ## Running tests
 
 Tests can be run with
 
 ```
-donejs test
+npm run test
 ```
 
 ## Development mode
@@ -24,7 +24,7 @@ donejs test
 Development mode can be started with
 
 ```
-donejs develop
+npm run develop
 ```
 
 ## Build and production mode
@@ -32,7 +32,7 @@ donejs develop
 To build the application into a production bundle run
 
 ```
-donejs build
+npm run build
 ```
 
 In Unix environment the production application can be started like this:
